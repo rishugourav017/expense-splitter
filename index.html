@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Expense Splitter</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="box">
+      <h2>Daily Expense Splitter</h2>
+
+      <input id="name" placeholder="Name" />
+      <input id="amount" type="number" placeholder="Amount ₹" />
+      <button onclick="addExpense()">Add</button>
+
+      <ul id="list"></ul>
+
+      <h3>Total: ₹<span id="total">0</span></h3>
+      <h3>Per Person: ₹<span id="perPerson">0</span></h3>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
